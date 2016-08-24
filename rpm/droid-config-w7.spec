@@ -6,7 +6,8 @@
 %define device_pretty Optimus L90
 %define dcd_path ./
 # Adjust this for your device
-%define pixel_ratio 2.0
+%define pixel_ratio 1.0
+%define icon_res=1.0
 # We assume most devices will
 %define have_modem 1
 %include droid-configs-device/droid-configs.inc
